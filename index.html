@@ -1,0 +1,30 @@
+<!-- Writte an html page that has 3 text boxes.
+Add 3 button’s but only the first one should use the   onclick=   way of running a JavaScript function. 
+The 2nd and 3rd buttons must have their click events defined in the JavaScript. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>HW3 - Buttons and array.map</title>
+</head>
+<body>
+    <h2>Three Buttons</h2>
+    <div id="threeInput">
+        <input type =text cols="50" id="text1" />
+        <br>
+        <input type =text cols="50" id="text2"/>
+        <br>
+        <input type =text cols="50" id="text3"/>
+    </div>
+    <div id="threeButtons">
+        <input type="button" value="Square" id="square" onclick="mySquare()"/>
+        <input type="button" value="Cube" id="cube"/>
+        <input type="button" value="ToTheFourth" id="fourth"/>
+    </div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
